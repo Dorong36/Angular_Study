@@ -16,11 +16,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022",
+    "target": "es2015", // 기존 ES2022에서 오류
+    "module": "es2020", // 기존 ES2022에서 덩달아 바꿈
     "useDefineForClassFields": false,
     "lib": [
-      "ES2022",
+      "es2018", // 기존 ES2022에서 오류
       "dom"
     ]
   },
